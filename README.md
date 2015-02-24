@@ -42,4 +42,6 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 #Resources that helped my to finish this project
 1.  Jasmine loop: [http://tosbourn.com/using-loops-in-jasmine/](http://tosbourn.com/using-loops-in-jasmine/)
 1.  Jasmine Doc: [http://jasmine.github.io/2.1/introduction.html](http://jasmine.github.io/2.1/introduction.html)
+1.  [https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_identity_tobe.html](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_identity_tobe.html)
+1.  [https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_yes_or_no_tobetruthy_tobefalsy.html](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_yes_or_no_tobetruthy_tobefalsy.html)
 

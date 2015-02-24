@@ -32,7 +32,7 @@ $(function() {
          * and that the URL is not empty.
          */
             function test_url(feed) {
-                it('url is defined', function() {
+                it('url is defined and populated', function() {
                     expect(feed.url).toBeDefined();
                     expect(feed.url).not.toBeNull();
                     expect(feed.url).toBeTruthy();
@@ -49,7 +49,7 @@ $(function() {
          * and that the name is not empty.
          */
         function test_name(feed) {
-            it('name is defined', function() {
+            it('name is defined and populated', function() {
                 expect(feed.name).toBeDefined();
                 expect(feed.name).not.toBeNull();
                 expect(feed.name).toBeTruthy();
@@ -63,18 +63,24 @@ $(function() {
 
 
     /* TODO: Write a new test suite named "The menu" */
-
+    describe('The menu', function() {
         /* TODO: Write a test that ensures the menu element is
          * hidden by default. You'll have to analyze the HTML and
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
+        it('element is hidden by default', function() {
+            expect($('.menu-hidden')).toBeDefined();
+            expect($('body').hasClass('menu-hidden')).toBeTruthy();
+            //expect($('body').hasClass('menu-hidden')).toBe(true);
+        });
 
-         /* TODO: Write a test that ensures the menu changes
-          * visibility when the menu icon is clicked. This test
-          * should have two expectations: does the menu display when
-          * clicked and does it hide when clicked again.
-          */
+        /* TODO: Write a test that ensures the menu changes
+         * visibility when the menu icon is clicked. This test
+         * should have two expectations: does the menu display when
+         * clicked and does it hide when clicked again.
+         */
+    });
 
     /* TODO: Write a new test suite named "Initial Entries" */
 
