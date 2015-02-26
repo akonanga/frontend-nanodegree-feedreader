@@ -69,17 +69,41 @@ $(function() {
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
-        it('element is hidden by default', function() {
+        it('element is hidden by default', function () {
             expect($('.menu-hidden')).toBeDefined();
             expect($('body').hasClass('menu-hidden')).toBeTruthy();
             //expect($('body').hasClass('menu-hidden')).toBe(true);
         });
 
-        /* TODO: Write a test that ensures the menu changes
+
+        /*TODO: Write a test that ensures the menu changes
          * visibility when the menu icon is clicked. This test
          * should have two expectations: does the menu display when
          * clicked and does it hide when clicked again.
          */
+        /* This is the hide menu test */
+        it('icon is triggered NOT to display the menu', function() {
+            //console.log('1. menu-hidden is attached to the body='+$('body').hasClass('menu-hidden'));
+            expect($('body').hasClass('menu-hidden')).toBeTruthy();
+        });
+    });
+
+
+    describe('The menu', function() {
+         /*TODO: Write a test that ensures the menu changes
+         * visibility when the menu icon is clicked. This test
+         * should have two expectations: does the menu display when
+         * clicked and does it hide when clicked again.
+         */
+        /* This is the show menu test */
+        beforeEach(function() {
+            $('.menu-icon-link').trigger( 'click' );
+        });
+
+        it('icon is triggered to display the menu', function() {
+            //console.log('2. menu-hidden is attached to the body='+$('body').hasClass('menu-hidden'));
+            expect($('body').hasClass('menu-hidden')).toBeFalsy();
+        });
     });
 
     /* TODO: Write a new test suite named "Initial Entries" */
