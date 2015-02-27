@@ -141,7 +141,7 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
         it('should have new feed', function (done) {
-            console.log('['+$('.header-title').text()+']['+allFeeds[0].name+']');
+            //console.log('['+$('.header-title').text()+']['+allFeeds[0].name+']');
             expect($('.header-title').text() !== allFeeds[0].name).toBeTruthy();
             done();
         });
