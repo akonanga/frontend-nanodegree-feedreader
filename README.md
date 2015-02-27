@@ -44,4 +44,5 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 1.  Jasmine Doc: [http://jasmine.github.io/2.1/introduction.html](http://jasmine.github.io/2.1/introduction.html)
 1.  [https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_identity_tobe.html](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_identity_tobe.html)
 1.  [https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_yes_or_no_tobetruthy_tobefalsy.html](https://www.safaribooksonline.com/library/view/javascript-testing-with/9781449356729/_yes_or_no_tobetruthy_tobefalsy.html)
-
+1.  [http://stackoverflow.com/questions/10527394/how-to-test-a-method-in-jasmine-if-the-code-in-beforeeach-is-asynchronous](http://stackoverflow.com/questions/10527394/how-to-test-a-method-in-jasmine-if-the-code-in-beforeeach-is-asynchronous)
+1.  [http://stackoverflow.com/questions/4959975/generate-random-value-between-two-numbers-in-javascript](http://stackoverflow.com/questions/4959975/generate-random-value-between-two-numbers-in-javascript)
