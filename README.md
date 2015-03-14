@@ -45,6 +45,12 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 
 
 
+##Documentation on the project but specific to the actual coding work that I did:
+1.  There is a total of 14 tests that Jasmine has to test.
+1.  These 14 tests are enumerated at the bottom of the screen where all of them are clickable.
+1.  Clicking these tests will execute the said test and will be reported as either pass or fail
+
+
 #Resources that helped me finish this project
 1.  Jasmine loop: [http://tosbourn.com/using-loops-in-jasmine/](http://tosbourn.com/using-loops-in-jasmine/)
 1.  Jasmine Doc: [http://jasmine.github.io/2.1/introduction.html](http://jasmine.github.io/2.1/introduction.html)
