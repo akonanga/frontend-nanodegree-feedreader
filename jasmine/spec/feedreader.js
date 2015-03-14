@@ -145,14 +145,14 @@ $(function() {
 
     describe('New Feed Selection', function() {
         /*
-        *   Test to make sure there is a 'NEW' entry other than the first
+        *   Test to make sure there is a 'NEW' feed other than the first
         */
         beforeEach(function (done) {
             /*
              *   This is make sure that the ajax call, loadFeed(), is executed first and is done
              *   This done() function communicates with the Jazmine's test logic.
              *   To make sure it's a new entry randomize a number between 1 and 3 so that
-             *   the first entry is not picked up.  Random number is store in loadNdx.
+             *   the first feed is not picked up.  Random number is store in loadNdx.
              */
             var loadNdx = Math.floor(Math.random() * 3) + 1;
             loadFeed(loadNdx, function () {
@@ -164,7 +164,7 @@ $(function() {
         it('should have new feed', function (done) {
             /*
              *   Test to make sure that the title is not the same as title of the first feed
-             *   by comparing the title text of the new against the name of the first feed.
+             *   by comparing the title text of the new feed against the name of the first feed.
              *   Entry coming from the ajax call, loadFeed()
              */
             expect($('.header-title').text() !== allFeeds[0].name).toBeTruthy();
